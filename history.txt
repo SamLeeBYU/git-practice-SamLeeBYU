@@ -1,0 +1,71 @@
+    2  git clone "https://github.com/carsonp4/git-practice-carsonp4"
+    3  cd "C:\Users\Owner\Desktop\BYU\School\Fall 2023\STAT 386\git-practice-carsonp4"
+    4  git branch feature-SamLeeBYU
+    5  git checkout feature-SamLeeBYU
+   12  git add .
+   13  git commit -m "Add file_3.txt and add text to new_text.txt"
+   14  git push origin feature-SamLeeBYU
+   15  git add remote origin "https://github.com/SamLeeBYU/git-practice-SamLeeBYU"
+   16  git add remote -u origin "https://github.com/SamLeeBYU/git-practice-SamLeeBYU"
+   17  git remote add origin "https://github.com/SamLeeBYU/git-practice-SamLeeBYU"
+   18  git remote -v
+   20  git clone "https://github.com/SamLeeBYU/git-practice-carsonp4"
+   21  git clone "https://github.com/SamLeeBYU/git-practice-carsonp4"
+   22  cd "C:\Users\Owner\Desktop\BYU\School\Fall 2023\STAT 386\git-practice-carsonp4"
+   23  git branch feature-SamLeeBYU
+   24  git checkout feature-SamLeeBYU
+   29  git add .
+   30  git commit -m "Add sam.txt"
+   31  git push origin feature-SamLeeBYU
+   33  cd git-practice
+   34  cd git_practice
+   35  git pull
+   37  git log --oneline > gitlog.txt
+   42  cat gitlog.txt
+   43  git log
+   44  git log --oneline
+   49  git add .
+   50  rm -rf gitlog.txt
+   52  git add .
+   53  git commit -m "Add files 3-6"
+   58  git status
+   59  git push
+   60  git add .
+   61  git commit -m "Add files 1 and 2"
+   62  git status
+   63  git commit -m "create new files"
+   64  git staus
+   65  git status
+   66  git log
+   69  git status
+   70  git add file_1.txt
+   71  git status
+   72  git commit -m "commit file_1.txt again"
+   73  git add file_2.txt
+   74  git commit -m "file_2"
+   75  git log
+   78  git add Readme.md
+   79  git commit -m "add readme.md"
+   80  touch .gitignore
+   81  git add .gitignore
+   82  git commit -m "add .gitignore"
+   85  git status
+   87  git branch features
+   88  git checkout features
+   89  git log
+   92  git add new_features.txt
+   94  git add new_features.txt
+   95  git commit -m "add empty file"
+  100  git add new_features.txt
+  101  git commit -m "added text to new_features.txt"
+  102  git checkout main
+  107  git add .
+  108  git commit -m "add text to file_1.txt"
+  109  git merge features
+  110  git branch -d features
+  111  git status
+  112  git push
+  113  git status
+  114  git log --oneline > gitlog.txt
+  115  cat gitlog.txt
+  116  history | grep git > history.txt

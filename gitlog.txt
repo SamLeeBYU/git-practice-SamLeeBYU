@@ -1,0 +1,21 @@
+e9523f7 Merge branch 'features'
+624ba77 add text to file_1.txt
+dafc7f2 added text to new_features.txt
+7b78ae1 add empty file
+bfb9ac7 Add files 3-6
+fb5fc4a Merge pull request #1 from carsonp4/feature-carsonp4
+e7ec4a5 Add carson file
+8210cd7 Merge branch 'features'
+7bd2e6e Changed new_features in features branch
+abc9400 Changed new_features.txt
+8006daa Merge branch 'features'
+222ba04 Changed file_1.txt
+652cd07 Merge branch 'features'
+c02e378 Added new line to file_1.txt
+3efb72b Added text to new_features.txt
+a2ba071 Added new_features.txt
+6498d4e Added the .gitignore
+3cf4e8e Added the Readme file
+8828667 Added text to file 2
+b898c1a Added text to file 1
+45073c3 create new files
