@@ -1,3 +1,7 @@
+94caa4b Make real change to file_1.txt
+872ab39 Change file_1
+c52f9e0 Change file_1
+2a00e44 Add log files
 e9523f7 Merge branch 'features'
 624ba77 add text to file_1.txt
 dafc7f2 added text to new_features.txt

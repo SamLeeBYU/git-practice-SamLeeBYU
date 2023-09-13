@@ -69,3 +69,30 @@
   114  git log --oneline > gitlog.txt
   115  cat gitlog.txt
   116  history | grep git > history.txt
+  118  git push
+  119  git status
+  120  git add .
+  121  unix2dos gitlog.txt
+  123  git add .
+  124  git commit -m "Add log files"
+  125  git push origin main
+  126  git init
+  127  git status
+  128  git branch conflict
+  129  git switch conflict
+  131  git add .
+  132  git commit -m "Change file_1"
+  133  git switch main
+  135  git add .
+  136  git commit -m "Change file_1"
+  137  git merge conflict
+  139  git add file_1.txt
+  140  git commit -m "Make real change to file_1.txt"
+  141  git merge conflict
+  142  git branch -d conflict
+  143  git status
+  144  git push
+  145  git status
+  146  git log --online > gitlog.txt
+  147  git log --oneline > gitlog.txt
+  148  history | grep git > history.txt
