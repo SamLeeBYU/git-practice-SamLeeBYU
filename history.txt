@@ -96,3 +96,14 @@
   146  git log --online > gitlog.txt
   147  git log --oneline > gitlog.txt
   148  history | grep git > history.txt
+  149  unix2dos gitlog.txt
+  151  git add .
+  152  git commit -m "Added log files again because Gradescope Test Failed"
+  153  git push
+  156  git branch gradescopeisdumb
+  157  git switch gradescopeisdumb
+  158  git switch main
+  159  git branch -d gradescopeisdumb
+  160  git status
+  161  git log --oneline > gitlog.txt
+  162  history | grep git > history.txt
